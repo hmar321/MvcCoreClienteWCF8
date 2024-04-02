@@ -1,0 +1,12 @@
+﻿@model List<Provincia>
+
+<h1>Service Catastro XML</h1>
+
+<ul class="list-group">
+    @foreach (Provincia prov in Model)
+    {
+        <li class="list-group-item">
+            @prov.Nombre
+        </li>
+    }
+</ul>
